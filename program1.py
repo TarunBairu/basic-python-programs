@@ -8,7 +8,7 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 prompt = """
 Write a professional leave request email
-for two days leave.
+for five days leave.
 """
 
 response = client.chat.completions.create(
