@@ -17,5 +17,5 @@ response = client.chat.completions.create(
         {"role": "user", "content": prompt}
     ]
 )
-
+print("hello")
 print(response.choices[0].message.content)
