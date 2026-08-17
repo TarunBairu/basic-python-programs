@@ -20,5 +20,4 @@ response = client.chat.completions.create(
 print("hello")
 print("World")
 print("Welcome")
-print("python classes")
 print(response.choices[0].message.content)
