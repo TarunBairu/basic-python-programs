@@ -18,4 +18,5 @@ response = client.chat.completions.create(
     ]
 )
 print("hello")
+print("World")
 print(response.choices[0].message.content)
