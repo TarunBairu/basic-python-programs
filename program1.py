@@ -20,4 +20,5 @@ response = client.chat.completions.create(
 print("hello")
 print("World")
 print("Welcome")
+print("to GitHub")
 print(response.choices[0].message.content)
